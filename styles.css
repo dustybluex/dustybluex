@@ -1,0 +1,150 @@
+/*
+The default style sheet for this site.
+*/
+
+
+
+/*Reset browser's own internal CSS stylesheet before reading this file. */
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: Questa Grande Regular, serif;
+    font-size: 100%;
+    margin: 0 auto;
+    width: 900px;
+    background-image: url(../img/17.jpg);
+    background-size:50% 50%;
+
+}
+
+header {
+
+    min-height: 150px;
+    text-align: left;
+    padding: 60px 10px 10px 60px;
+    
+}
+
+
+nav {
+    float: left;
+    background-image: url(../img/16%20copy.jpg)
+    margin-bottom: -8000px;
+    padding-bottom: 9999px;
+    width: 200px;
+    height: 1000px;
+    
+    
+
+/*
+    margin-top: -25px;
+    margin-bottom: -25px;
+*/
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    }
+
+nav li {
+padding: 90px 30px 30px 30px;
+}
+
+
+.nav-links:link {
+    color: #535E3B;
+    text-decoration:none;
+    font-size: 1.5 em;
+  
+    
+}
+
+.nav-links:visited {
+    color: steelblue;
+    text-decoration:none;
+    font-size: 1.5 em;
+  
+}
+
+.nav-links:hover {
+    color: powderblue;
+    font-size: 1.5 em;
+  
+}
+
+.current-page {
+    font-size: 1.5 em;
+  
+}
+
+
+
+
+.reference-image {
+    left: 10px;
+    padding: 10px 10px 15px 0;
+    position: relative;
+}
+article{
+    height: 650px;
+    padding-bottom: 20px 20px 20px 20px; 
+}
+
+h1 {
+    color: rgb(121, 84, 13);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 4em;
+    padding: 18px 20px 20px 15px;
+}
+h2{
+    color: rgb(121, 84, 13);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2em;
+}
+p{
+  font-family: "Times New Roman", Times, serif;  color: #535E3B;
+font-size:1.2em; 
+}
+h3{
+    color:#535E3B;
+        font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+        
+}
+.h3-links:link {
+    color: #535E3B;
+    text-decoration:none;
+    font-size: 1.5 em;
+}
+.h3-links:visited {
+    color: steelblue;
+    text-decoration:none;
+    font-size: 1.5 em;
+}
+.h3-links:hover {
+    color: powderblue;
+    font-size: 1.5 em;
+  
+}
+.h2-links:link {
+    color: rgb(121, 84, 13);
+    text-decoration:none;
+    font-size: 1.5 em;
+}
+.h2-links:visited {
+    color: steelblue;
+    text-decoration:none;
+    font-size: 1.5 em;
+}
+.h2-links:hover {
+    color: powdernlue;
+    font-size: 1.5 em;
+
+  
+}
+footer{
+    text-align: center;
+}
