@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 900px;
+    min-width: 600px;
+    background-image: url(../img/122.jpg);
+    background-size:100% 73%;
+}
+nav {
+    float: left;
+    margin-bottom: -800px;
+    padding-bottom: 999px;
+    width: 200px;
+    height: 1000px;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+
+    }
+
+nav li {
+padding: 90px 30px 30px 30px;
+}
+
+
+.nav-links:link {
+    color: #535E3B;
+    text-decoration:none;
+    font-size: 1.75 em;
+  
+    
+}
+
+.nav-links:visited {
+    color: #535E3B;
+    text-decoration:none;
+    font-size: 1.75 em;
+  
+}
+
+.nav-links:hover {
+    color: steelblue;
+    font-size: 1.75 em;
+  
+}
+.gallery figure {
+    color: rgb(121, 84, 13);
+    float:left;
+    height: 190px;
+    margin: 30px;
+    text-align: center;
+    width: 28%;
+}
+.gallery2 figure {
+    color: rgb(121, 84, 13);
+    float:left;
+    height:280px;
+    margin: 40px;
+    text-align: center;
+    width: 28%;
+}
+.gallery figure {
+    color: rgb(121, 84, 13);
+    height: 190px;
+    margin: 30px;
+    text-align: center;
+    width: 28%;
+}
+h2{
+    color: rgb(121, 84, 13);
+    text-align: center;
+    margin: 40px;
+   
+}
+h3{
+    color: rgb(121, 84, 13);
+    text-align: center;
+    margin: 40px;
+   
+}
+video {
+    position: relative;
+    left:140px;
+}

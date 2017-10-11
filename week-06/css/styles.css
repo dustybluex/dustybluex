@@ -1,0 +1,159 @@
+/*
+The default style sheet for this site.
+*/
+
+
+
+/*Reset browser's own internal CSS stylesheet before reading this file. */
+*{
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: 'acherus_militant_1bold';
+    src: url('acherus_militant_1_-_bold.otf-webfont.woff2') format('woff2'),
+         url('acherus_militant_1_-_bold.otf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    
+    font-size: 100%;
+    margin: 0 auto;
+    max-width: 900px;
+    min-width: 600px;
+    background-image: url(../img/122.jpg);
+    background-size:100% 73%;
+
+}
+
+header {
+
+    min-height: 150px;
+    text-align: left;
+    padding: 30px 0px 10px 60px;
+    
+}
+
+
+nav {
+    float: left;
+    background-image: url(../img/16%20copy.jpg)
+    position: relative;
+    left:120px;
+    width: 200px;
+    height: 1000px;
+    
+    
+
+/*
+    margin-top: -25px;
+    margin-bottom: -25px;
+*/
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    }
+
+nav li {
+padding: 90px 30px 30px 20px;
+}
+
+
+.nav-links:link {
+    color: #535E3B;
+    text-decoration:none;
+    font-size: 1.875 em;
+  
+    
+}
+
+.nav-links:visited {
+    color: #535E3B;
+    text-decoration:none;
+    font-size: 1.875 em;
+  
+}
+
+.nav-links:hover {
+    color:steelblue;
+    font-size: 1.875 em;
+  
+}
+
+.current-page {
+    font-size: 1.85 em;
+  
+}
+
+
+
+
+.reference-image {
+    left: 10px;
+    padding: 10px 10px 15px 0;
+    position: relative;
+}
+article{
+    height: 650px;
+    padding-bottom: 20px 20px 20px 20px; 
+}
+
+h1 {
+    color: rgb(121, 84, 13);
+    
+    font-size: 4em;
+    padding: 18px 20px 20px 15px;
+}
+h2{
+    color: rgb(121, 84, 13);
+    
+    font-size: 2em;
+}
+p{
+   color: #0A170E;
+font-size:1.25em; 
+}
+h3{
+    color:#535E3B;
+        
+    font-size: 1em;
+        
+}
+.h3-links:link {
+    color: #535E3B;
+    text-decoration:none;
+    font-size: 1.5 em;
+}
+.h3-links:visited {
+    color: steelblue;
+    text-decoration:none;
+    font-size: 1.5 em;
+}
+.h3-links:hover {
+    color: powderblue;
+    font-size: 1.5 em;
+  
+}
+.h2-links:link {
+    color: rgb(121, 84, 13);
+    text-decoration:none;
+    font-size: 1.5 em;
+}
+.h2-links:visited {
+    color: steelblue;
+    text-decoration:none;
+    font-size: 1.5 em;
+}
+.h2-links:hover {
+    color: powdernlue;
+    font-size: 1.5 em;
+
+  
+}
+footer{
+    text-align: center;
+}
