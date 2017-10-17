@@ -10,12 +10,7 @@ The default style sheet for this site.
     padding:0;
 }
 
-@font-face {
-    font-family: 'acherus_militant_1bold';
-    src: url('acherus_militant_1_-_bold.otf-webfont.woff2') format('woff2'),
-         url('acherus_militant_1_-_bold.otf-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+
 
 }
 body {
