@@ -11,7 +11,16 @@ The default style sheet for this site.
 }
 
 
+@font-face {
+    font-family: 'acherus_militant_1bold';
+    src: url('acherus_militant_1_-_bold.otf-webfont.eot');
+    src: url('acherus_militant_1_-_bold.otf-webfont.eot?#iefix') format('embedded-opentype'),
+         url('acherus_militant_1_-_bold.otf-webfont.woff2') format('woff2'),
+         url('acherus_militant_1_-_bold.otf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 
 body {
     font-size: 100%;
@@ -19,12 +28,12 @@ body {
     max-width: 900px;
     min-width: 600px;
     background-image: url(../img/122.jpg);
-    background-size:100% 73%;
+    background-size:cover;
 
 }
 
 header {
-   
+   font-family: 'acherus_militant_1bold';
     font-size: 100%;
     min-height: 150px;
     text-align: left;
@@ -97,6 +106,8 @@ nav {
 
 .main-nav li:hover .sub-nav li {
     display: block;
+    background-size:cover;
+    
 }
 
 main {
@@ -123,27 +134,28 @@ article{
 }
 
 h1 {
-    
+    font-family: 'acherus_militant_1bold';
     color: rgb(121, 84, 13);
     
     font-size: 4em;
     padding: 18px 20px 20px 15px;
 }
 h2{
-   
+   font-family: 'acherus_militant_1bold';
     color: rgb(121, 84, 13);
     
     font-size: 2em;
-padding: 40px 50px 30px 20px;
+     padding: 40px 50px 30px 20px;
      position: relative;
    
 }
 p{
- 
+ font-family: 'acherus_militant_1bold';
    color: #0A170E;
-font-size:1.25em; 
+   font-size:0.9em; 
 }
 h3{
+    font-family: 'acherus_militant_1bold';
     color:#535E3B;
         
     font-size: 1em;

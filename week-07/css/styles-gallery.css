@@ -2,13 +2,23 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: 'acherus_militant_1bold';
+    src: url('acherus_militant_1_-_bold.otf-webfont.eot');
+    src: url('acherus_militant_1_-_bold.otf-webfont.eot?#iefix') format('embedded-opentype'),
+         url('acherus_militant_1_-_bold.otf-webfont.woff2') format('woff2'),
+         url('acherus_militant_1_-_bold.otf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 body {
+    font-family: 'acherus_militant_1bold';
     margin: 0 auto;
     max-width: 900px;
     min-width: 600px;
     background-image: url(../img/122.jpg);
-    background-size:100% 73%;
+    background-size:cover;
 }
 nav {
     float: left;
@@ -48,6 +58,42 @@ padding: 90px 30px 30px 30px;
     font-size: 1.75 em;
   
 }
+.sub-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    padding: 80px 20px 30px 20px;
+    
+}
+
+.main-nav li a {
+    color: #535E3B;
+    display: block;
+    text-decoration: none;
+}
+
+.main-nav li a:hover {
+    background-color: lightblue;
+    transition: background-color .5s;
+    }
+
+
+.main-nav li .sub-nav li {
+    display: none;
+}
+
+.main-nav li:hover .sub-nav li {
+    display: block;
+    background-size:cover;
+    
+}
+
+main {
+    min-height: 600px;
+}
 .gallery figure {
     color: rgb(121, 84, 13);
     float:left;
@@ -72,12 +118,14 @@ padding: 90px 30px 30px 30px;
     width: 28%;
 }
 h2{
+    font-family: 'acherus_militant_1bold';
     color: rgb(121, 84, 13);
     text-align: center;
     margin: 40px;
    
 }
 h3{
+    font-family: 'acherus_militant_1bold';
     color: rgb(121, 84, 13);
     text-align: center;
     margin: 40px;
