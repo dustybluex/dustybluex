@@ -110,13 +110,7 @@ main {
     text-align: center;
     width: 28%;
 }
-.gallery figure {
-    color: rgb(121, 84, 13);
-    height: 190px;
-    margin: 30px;
-    text-align: center;
-    width: 28%;
-}
+
 h2{
     font-family: 'acherus_militant_1bold';
     color: rgb(121, 84, 13);

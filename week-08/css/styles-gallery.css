@@ -1,0 +1,383 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+}
+*/
+
+/*the reset code is not needed here because you're using the reset.css stylesheet*/
+
+@font-face {
+    font-family: 'acherus_militant_1bold';
+    src: url('acherus_militant_1_-_bold.otf-webfont.eot');
+    src: url('acherus_militant_1_-_bold.otf-webfont.eot?#iefix') format('embedded-opentype'),
+    url('acherus_militant_1_-_bold.otf-webfont.woff2') format('woff2'),
+    url('acherus_militant_1_-_bold.otf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-image: url(../img/122.jpg);
+    background-size: 100% 70%;
+    font-family: 'acherus_militant_1bold';
+    margin: 0 auto;
+    max-width: 900px;
+    min-width: 600px;
+}
+
+/*
+nav {
+    float: left;
+    height: 500px;
+    margin-bottom: -600px;
+    padding-bottom: 999px;
+    width: 200px;
+}
+*/
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+/*
+nav li {
+    padding: 90px 30px 30px 30px;
+}
+*/
+
+.nav-links:link {
+    color: #535E3B;
+    font-size: 1.75em;
+    /*no space between value and em*/
+    text-decoration: none;
+
+}
+
+.nav-links:visited {
+    color: #535E3B;
+    font-size: 1.75em;
+    /*no space between value and em*/
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    color: steelblue;
+    font-size: 1.75em;
+    /*no space between value and em*/
+}
+
+
+.main-nav {
+    float: left;
+    width: 30%;
+}
+
+.main-nav li {
+    display: block;
+    padding: 40px 2px 20px 2px;
+    /*reduce padding */
+}
+
+.main-nav li a {
+    color: #535E3B;
+    /*    display: block;*/
+    text-decoration: none;
+}
+
+.main-nav li a:hover {
+    background-color: lightblue;
+    transition: background-color .5s;
+}
+
+
+/*.main-nav li .sub-nav li*/
+
+.sub-nav {
+    background-color: #f5f5dc;
+    background-color: rgba(240, 240, 216, 0.8);
+    display: none;
+    left: -999em;
+    padding: 0;
+    position: absolute;
+    z-index: 1000;
+    
+}
+
+.sub-nav li {
+    padding: 5px 2px 5px 2px;
+}
+
+.main-nav li:hover .sub-nav {
+    /*    background-size: cover;*/
+    display: inline-block;
+    left: 30%;
+    width: 10em;
+}
+
+/*
+.nav-links .subnav li {
+    
+}
+*/
+
+/*
+.sub-nav {
+    left: -999em;
+    list-style: none;
+    margin: 0;
+    margin-left: -18px;
+    padding: 0;
+    position: absolute;
+    z-index: 1000;
+}
+*/
+
+/*
+.main-nav li:hover .subnav {
+    display:block;
+    left: auto;
+    width: 22em;
+}
+*/
+
+.wrapper {
+    float: right;
+    width: 70%;
+}
+
+.gallery figure {
+    color: rgb(121, 84, 13);
+    float: left;
+    height: 190px;
+    margin: 10px;
+    max-width: 333%;
+    padding: 0;
+    text-align: center;
+}
+
+.gallery2 figure {
+    color: rgb(121, 84, 13);
+    float: left;
+    height: 280px;
+    margin: 0;
+    max-width: 333%;
+    padding: 0;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(121, 84, 13);
+    font-family: 'acherus_militant_1bold';
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(121, 84, 13);
+    font-family: 'acherus_militant_1bold';
+    margin: 40px;
+    text-align: center;
+}
+
+video {
+    left: 140px;
+    position: relative;
+}
+
+/*
+.wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+}
+*/
+
+main {
+    margin: 0;
+    min-height: 800px;
+
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.column {
+    float: left;
+    margin: 0;
+    margin-bottom: -160px;
+    overflow: hidden;
+    padding-top: 50px;
+    position: relative;
+    width: 33%;
+}
+
+.column2 {
+    float: left;
+    margin: 0;
+    margin-bottom: -160px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 33%;
+}
+
+.desc {
+    bottom: 5px;
+    font-size: 0.875em;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: absolute;
+    width: 100%;
+}
+
+.desc2 {
+    bottom: 5px;
+    font-size: 0.875em;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: absolute;
+    width: 100%;
+}
+
+.show-menu {
+    color: #535E3B;
+    display: none;
+    float: right;
+    font-family: 'acherus_militant_1bold';
+    font-size: 1.75em;
+    margin: .2em;
+    text-decoration: none;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]:checked ~ .main-nav {
+    display: block;
+}
+
+/*------------MEDIA QUERIES------------------*/
+
+/* smartphone vertical orientation: 320px to +/- 479px*/
+
+@media only screen and (min-width: 20em) and (max-width: 29em) {
+    body {
+        background-color: rgb(121, 84, 13);
+        min-width: 100%;
+        /*set the minimum width of the window to the device width*/
+    }
+
+
+    /*Hide the navigation elements by default */
+    .main-nav {
+        display: none;
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+    /*Display the'show menu' icon link */
+    .show-menu {
+        background-color: rgb(121, 84, 13);
+        display: block;
+    }
+
+
+    .main-nav li {
+        display: block;
+        padding: 5px 0 0 0;
+
+    }
+
+    .wrapper {
+        width: 100%;
+
+    }
+
+    .column {
+        width: 100%;
+    }
+    .column2 {
+        display: block;
+        float: left;
+        margin: 0;
+        margin-bottom: -6px;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+        width: 100%;
+    }
+    .column2 img {
+        margin: 0;
+        max-width: 333%;
+        padding: 0;
+    }
+    .desc {
+        bottom: 5px;
+        font-size: 1.2em;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        position: absolute;
+        width: 100%;
+    }
+    .desc2 {
+        bottom: 5px;
+        font-size: 1.2em;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        position: absolute;
+        width: 100%;
+    }
+}
+
+/* smartphone and tablet: 480px to +/- 719px */
+
+@media only screen and (min-width: 30em) and (max-width: 59em) {
+    body {
+        margin: 0 auto;
+    }
+    nav li {
+        color: #535E3B;
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .column {
+        width: 50%;
+    }
+    .column2 {
+        float: left;
+        margin: 0;
+        margin-bottom: -6px;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+        width: 50%;
+    }
+    .column2 img {
+        margin: 0;
+        max-width: 333%;
+        padding: 0;
+    }
+    .desc {
+        bottom: 5px;
+        font-size: 1.5em;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        position: absolute;
+        width: 100%;
+    }
+    .desc2 {
+        bottom: 5px;
+        font-size: 1.5em;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        position: absolute;
+        width: 100%;
+    }
+}
